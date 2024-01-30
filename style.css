@@ -1,0 +1,81 @@
+.navbar {
+    background-color: #98FF98;
+}
+
+section {
+    padding-top: 4rem;
+}
+
+.jumbotron {
+    padding-top: 5rem;
+    background-color: #98FF98;
+}
+
+#pendidikan {
+
+    background-color: #98FF98;
+}
+
+#game {
+    background-color: white;
+}
+
+#kontak {
+    background-color: #98FF98;
+}
+
+#footer {
+    background-color: white;
+}
+
+
+
+.nav-link {
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+.navbar-brand:hover {
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+.hmsi {
+    height: 168px;
+}
+
+/* Timeline */
+.timeline {
+    border-left: 1px solid hsl(0, 2%, 10%);
+    position: relative;
+    list-style: none;
+}
+
+.timeline .timeline-item {
+    position: relative;
+}
+
+.timeline .timeline-item:after {
+    position: absolute;
+    display: block;
+    top: 0;
+}
+
+.timeline .timeline-item:after {
+    background-color: hsl(0, 17%, 94%);
+    left: -38px;
+    border-radius: 50%;
+    height: 11px;
+    width: 11px;
+    content: "";
+}
